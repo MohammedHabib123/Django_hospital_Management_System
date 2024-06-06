@@ -1,0 +1,122 @@
+.home .logo{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #184040;
+  }
+  .home .logo img{
+    width: 80px;
+  }
+  .home .logo h1{
+    color: white;
+  }
+  .home .logo .fam{
+    margin-left: 300px;
+  
+  }
+  .home .navbar{
+    background-color: #306B5E;
+    width: 100%;
+    height: 50px;
+  }
+  .home .logo .btn1{
+    text-decoration: none;
+        color: black;
+        background-color: aliceblue;
+        height: 25px;
+        width: 114px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 17px;
+        margin-left: 150px
+  }
+  .home .logo .btn2{
+    text-decoration: none;
+        color: black;
+        background-color: aliceblue;
+        height: 25px;
+        width: 114px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 17px;
+  }
+  .patient-info{
+    height: 280px;
+  }
+  .home .patient-info .pt-Info{
+    width: 100%;
+    background-color: #00800045;
+    height: 50px;
+    display: inline-block;
+  }
+  .home .patient-info .pt-Info h2{
+    text-align: center;
+    margin-top: 5px
+  }
+  
+  .home .patient-info .form input{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 60px;
+  text-align: center;
+  }
+  
+  
+  
+  .home .booking .pt-Info{
+    width: 100%;
+    background-color: #00800045;
+    height: 50px;
+    display: inline-block;
+  }
+  .home .booking .pt-Info h2{
+    text-align: center;
+    margin-top: 5px
+  }
+  .home .bookingForm .pt1 input{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: xx-large;
+  }
+  .home .bookingForm {
+  text-align: center;
+  }
+  .home .bookingForm .pt1 label{
+  font-size: xx-large;
+  color: #184040;
+  }
+  .home .bookingForm .pt2 input{
+    margin: 10px;
+    width: 44px;
+    height: 22px;
+  }
+  .home .bookingForm .pt2 label{
+      font-size: xx-large;
+      color: #184040;
+  }
+  .home .bookingForm h1{
+    color: #184040;
+  
+  }
+  .home .bookingForm .supmit{
+    display: block;
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 600px;
+      border-radius: 5px;
+      font-weight: 900;
+      width: 128px;
+      height: 40px;
+      background-color: #184040;
+  }
+  

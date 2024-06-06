@@ -1,0 +1,107 @@
+
+.signinsection {
+    background-color:#184040;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+     /* padding: 70px; */
+     height: 609px;
+
+ }
+ .signinsection h3{
+    color: black;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5px;
+
+
+ }
+ .signinsection input {
+    background-color: white;
+
+        /* border: none ; */
+        border: 7px solid white;
+        border-radius: 9px;
+        display: block;
+         margin: 30px;
+         width: 290px;
+
+
+ }
+ .signinsection label{
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    left: 25px;
+ }
+
+
+.signinsection button{
+    padding: 10px 100px;
+    border-radius: 8px;
+    border: none;
+    color:white;
+    background-color: #184040;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 40px;
+    position: absolute;
+    bottom: 60px;
+}
+.signinp2{
+  color: black;
+  font-size: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 150px;
+  margin-bottom: -130px;
+}
+.signinp2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+}
+.signinp1 {
+    color: #B5B4B4;
+    font-weight: 700;
+    font-size: 25px;
+  padding: 10px;
+  padding-bottom: 50px;
+
+
+}
+.signinform{
+    background-color: #306B5E;
+    padding:50px;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    margin-top: 8px;
+    height: 506px;
+}
+.logoo h3{
+    float: left;
+    font-size: 35px;
+     font-weight: 700;
+   top: 17px;
+   color:#FFFFFF;
+    margin-top: 9px;
+}
+.logoo img{
+  width: 71px;
+float: left;
+margin-top: 8px;
+margin-left: 9px;
+}
+.logoo{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.signinform a{
+    color: white;
+    text-decoration: none;
+}

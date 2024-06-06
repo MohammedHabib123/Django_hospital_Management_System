@@ -1,0 +1,264 @@
+   {% load static %}
+<html>
+
+<head>
+    <title>Medica</title>
+    <link rel="shortcut icon" href="./images/Mainlogo.png" type="image/x-icon">
+    <meta name="description" content=" Medica is a health care institution providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment. Medica is the major health care facility in its region, with many beds for intensive care and additional beds for patients who need long-term care. ">
+    <meta name="keywords" content=" Medica Hospital Doctor Patient">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <!-- <link rel="stylesheet" href="./css/MediaQuery.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- beginnig of header code -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="{% static 'image/logo.png ' %}" alt=" Hospital logo">
+            <h1>Medica</h1>
+            <div class="clr"></div>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#departments">departments</a></li>
+                <li><a href="#stuff">Stuff</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="/admin" >Admission</a></li>
+                <li><a href="/admin" >Doctors</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="clr"></div>
+            </ul>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <!-- end of header code -->
+
+      <!-- beginnig of home code -->
+    <div class="HomeSection" id="Home" style="background-image: url('{% static 'image/hero.jpg' %}');">
+
+        <div class="HomeContent">
+            <h2>Welcome To Medica</h2>
+            <p><span>Best healthcare </span><span> solution in your </span><span> city</span></p>
+            <button>
+                <a href="/patient/patient signin">Appointment</a>
+            </button>
+        </div>
+    </div>
+<!-- end of home code -->
+
+<!-- beginnig of about code -->
+    <div class="about" id="about">
+
+        <div class="sec1">
+            <img src="{% static 'image/about.jpg ' %}" alt="Doctors">
+        </div>
+        <div class="sec2" id="about">
+            <a href="#about">About Us</a>
+            <h3>Best Medical Care For Yourself And Your Family</h3>
+            <p><span>Locally owned, not-for-profit and nationally recognized, Freeman Health System includes</span>
+                <span>Freeman Hospital West, Freeman Hospital East, Freeman Neosho Hospital and Ozark Center - the
+                    area's largest provider 1 of behavioral health services</span>
+           </p>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <!-- end of about code -->
+
+
+<!-- beginnig of services code -->
+    <div class="services" id="service">
+        <div class="servicescontent">
+            <a href="#service">services</a>
+            <p>Excellent Medical Services</p>
+            <div class="servicesbody">
+
+                <div class="albumsec">
+                    <i class="fa-solid fa-pump-medical fa-2xl"></i>
+                    <h3>Ambulance Service</h3>
+                </div>
+
+                <div class="albumsec">
+                    <i class="fa-solid fa-stethoscope fa-2xl"></i>
+                    <h3>Surgery</h3>
+                </div>
+
+                <div class="albumsec">
+                    <i class="fa-solid fa-lungs fa-2xl"></i>
+                    <h3>Emergency care</h3>
+                </div>
+                <div class="clr"></div>
+
+                <div class="albumsec">
+                    <i class="fa-solid fa-pills fa-2xl "></i>
+                    <h3>Pharmacy</h3>
+                </div>
+
+                <div class="albumsec">
+                    <i class="fa-sharp fa-solid fa-virus fa-2xl"></i>
+                    <h3>Blood Testing</h3>
+                </div>
+
+                <div class="albumsec">
+                    <i class="fa-solid fa-syringe fa-2xl"></i>
+                    <h3>Outdoor Checkup</h3>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end of services code -->
+    <!-- beginnig of departmets code -->
+    <div class="blog" id="departments">
+        <div class="blogcontent">
+            <a href="#departments">departments</a>
+            <p>Our departmets that will be in service for you</p>
+        </div>
+        <div class="blogbody">
+            <div class="secalbum2 ">
+                <img src="{% static 'image/6hgf.jpg ' %}" alt="Gastrology department">
+                <p>Gastrology department.</p>
+            </div>
+            <div class="secalbum2 ">
+                <img src="{% static 'image/urology-bnr.jpg ' %}" alt="urology department">
+                <p>urology department.</p>
+            </div>
+            <div class="secalbum2 ">
+                <img src="{% static 'image/10jhgfjjjh.jpg ' %}" alt="pulmonary department">
+                <p>pulmonary department.</p>
+            </div>
+            <div class="secalbum2 lastphoto">
+                <img src="{% static 'image/TreatmentPlanning-600x400.jpg ' %}" alt="oncology department">
+                <p>oncology department.</p>
+            </div>
+            <div class="clr"></div>
+        </div>
+    <!-- end of departmets code -->
+
+    <!-- beginnig of stuff code -->
+
+    <div class="stuff" id="stuff">
+        <div class="stuffcontent">
+            <a href="#stuff">stuff</a>
+            <p><span>Qualified Healthcare </span><span> professionals</span></p>
+        </div>
+        <div class="stuffbody">
+            <div class="secalbum1">
+                <img src="{% static 'image/f1.jpg ' %}" alt="Doctor">
+            </div>
+            <div class="secalbum1">
+                <img src="{% static 'image/f2.jpg ' %}" alt="Doctor">
+            </div>
+            <div class="secalbum1">
+                <img src="{% static 'image/f3.jpg ' %}" alt="Doctor">
+            </div>
+            <div class="secalbum1">
+                <img src="{% static 'image/f4.jpg ' %}" alt="Doctor">
+            </div>
+            <div class="clr"></div>
+        </div>
+    </div>
+<!-- end of stuff code -->
+<!-- beginnig of blog code -->
+<div class="blog" id="blog">
+    <div class="blogcontent">
+        <a href="#blog">Blogs</a>
+        <p>Some medical facts that can save your life</p>
+    </div>
+    <div class="blogbody">
+        <div class="secalbum2 ">
+            <img src="{% static 'image/bones.jpg ' %}" alt="bones">
+            <p>Exercising when you're young can keep bones stronger when you're old.</p>
+        </div>
+        <div class="secalbum2 ">
+            <img src="{% static 'image/type-2-diabetes-glucose-level.jpg ' %}" alt="diabetes">
+            <p>Being stressed at work may increase your risk for type 2 diabetes.</p>
+        </div>
+        <div class="secalbum2 ">
+            <img src="{% static 'image/Screen-shot-2017-09-13-at-1-42-55-PM-59b98a5fac321.png ' %}" alt="sunshine">
+            <p>Enjoying some sunshine in the mornings may help you lose weight.</p>
+        </div>
+        <div class="secalbum2 lastphoto">
+            <img src="{% static 'image/health-benefits-of-coffee.jpg' %}" alt="cupof coffe">
+            <p>A cup of coffee at the morning may make you less depressed..</p>
+        </div>
+        <div class="clr"></div>
+    </div>
+<!-- end of blog code -->
+<!-- beginnig of Testimonial code -->
+    <div class="Testimonial" id="Testimonial">
+        <div class="Testimonialcontent">
+            <a href="#Testimonial">Testimonial</a>
+            <p>Patients say about our services</p>
+        </div>
+        <div class="Testimonialbody">
+            <div class="secalbum2 ">
+                <img src="{% static 'image/atr1.png' %}" alt="patient testonimy">
+                <p>They have the best doctors ever.</p>
+            </div>
+            <div class="secalbum2 ">
+                <img src="{% static 'image/fgh.PNG' %}" alt="patient testonimy">
+                <p>Fully satisfied with the treatment and hospitality.</p>
+            </div>
+            <div class="secalbum2 ">
+                <img src="{% static 'image/dhfd.PNG' %}" alt="patient testonimy">
+                <p>Excellent attitude, professionalism and great doctors.</p>
+            </div>
+            <div class="secalbum2 lastphoto">
+                <img src="{% static 'image/ghf.PNG' %}" alt="patient testonimy">
+                <p>My experience with the hospital is great and the staff are friendly.</p>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <!-- end of Testimonial code -->
+        <!-- beginnig of contact code -->
+        <div class="communicationsection">
+            <div class="Get_In_Touch" id="contact">
+                <h3 class="vip">Get in touch</h3>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p> 123 Street, New York, USA</p>
+                <i class="fa-solid fa-message"></i>
+                <p>Info@Medica.com</p>
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>012 345 67890</p>
+
+            </div>
+            <div class="QuickLinks">
+                <h3 class="vip">Quick links</h3>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#stuff">Stuff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+            <div class="PopularLinks">
+                <h3 class="vip">Popular links</h3>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#stuff">Stuff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+            <div class="NewsLetter">
+                <h3 class="vip">Newsletter</h3>
+                <button class="Emailbutton">Your Email Address</button>
+                <button class="Signupbutton">Sign Up</button>
+                <p>Follow Us</p>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class=""></i>
+            </div>
+            <div class="clr"></div>
+        </div>
+    </div>
+   <!-- end of contact code -->
+</body>
+</html>

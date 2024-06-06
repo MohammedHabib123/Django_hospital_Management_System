@@ -1,0 +1,60 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/patinthome.css'%}">
+  </head>
+  <body>
+    <div class="home">
+      <div class="logo">
+        <img src="{% static 'image/logo.png ' %}" alt="logo">
+        <h1>MEDICA</h1>
+        <h1 class="fam">Family Medicine</h1>
+        <a class="btn1" href="">LogOut</a>
+      </div>
+      <div class="patient-info">
+      <div class="pt-Info">
+       <h2>patient Information</h2>
+       <h2 style="text-transform: capitalize;">Welcome  {{pusername}} </h2>
+      </div>
+      <form class="form" action="" method="post">
+          <input type="text" style="text-transform: capitalize;"   placeholder=" {{pfname}}" id="pfname" name="pfname"   readonly>
+          <input type="text" style="text-transform: capitalize;"  placeholder=" {{plname}}" id="plname" name="plname"   readonly>
+          <input type="email" style="text-transform: capitalize;"  placeholder=" {{pemail}}" id="pemail" name="pemail"   readonly>
+
+      </form>
+      </div>
+      <div class="booking">
+        <div class="pt-Info">
+         <h2>Book An Appointment</h2>
+        </div>
+        <div class="bookingForm">
+          <div class="pt1">
+          <form class="form" action="/patient/patient home" method="POST">
+
+            {% csrf_token %}
+
+            <label for="Patient">Name:</label>
+            <input type="text" style="text-transform: capitalize;" style="font-size:larger;" placeholder="Patient name:" id="Patient" name="Patient" value="{{pfname }}  {{ plname}} " required >
+            <label for="Date">Chose date date:</label>
+            <input type="Date" name="Date" id="Date">
+            <label for="Time">Choose your time</label>
+              <input type="time" id="Time " name="Time" value="">
+              <label for="Doctor">doctor:</label>
+            <input type="text" placeholder="Doctor name:" id="Doctor" name="Doctor" required >
+              </div>
+
+            
+
+            <input class="supmit" type="submit"  name="save" value="save">
+
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

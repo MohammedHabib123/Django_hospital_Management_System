@@ -1,0 +1,51 @@
+{%load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/DoctorSignup.css'%}">
+    <title>Sign in </title>
+    <link rel="shortcut icon" href="{% static 'image/Mainlogo.png ' %}" type="image/x-icon">
+    <body>
+
+      <div class="signiup">
+          <div class="logo">
+            <img class="logo-img" src="{% static 'image/logo.png ' %}" alt=" Hospital logo">
+            <h3>Medica</h3>
+          </div>
+        <div class="content" style="background-image: url('{% static 'image/doct.jpg' %}');">
+          <div class="form">
+            <form class="" action="index.html" method="post">
+              <h3>Sign Up</h3>
+              <p class="signupp1">Be Part of our hospital</p>
+              <div class="part1">
+                <label for="nm">Name:</label>
+                <input type="text" placeholder="Enter Your Name:" id="nm" name="Name" required minlength="3" maxlength="50">
+
+                <label for="Ag">Age:</label>
+                <input type="number" placeholder="Enter Your Age:" id="Ag" name="Age" required >
+
+                <label for="mail">Email:</label>
+                <input type="email" placeholder="Enter Your E-mail:" id="mail" name="Email" required>
+              </div>
+              <div class="part2">
+                <label for="pn">phone number:</label>
+                <input type="tel" placeholder="Enter Your Number:" id="pn" name="phonenumber" required>
+
+                <label for="pass">password:</label>
+                <input type="password" placeholder="Enter Your password:" id="pass" name="password" minlength="5" maxlength="15" required>
+
+                <label for="sp">Specialized:</label>
+                <input type="text" placeholder="Enter Your Specialized:" id="sp" name="Name" required minlength="3" maxlength="50">
+                <div class="clr"></div>
+              </div>
+               <a href="doctorhome.html">
+              <button type="submit">Sign Up</a>
+              </button>
+
+              <p class="signupp2">Already have an Account? <a href="/doctor/doctor signin" >Sign In</a></p>
+            </form>
+
+          </div>
+        </div>
+     </div>
+    </body>
+</html>

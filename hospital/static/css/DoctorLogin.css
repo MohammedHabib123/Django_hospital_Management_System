@@ -1,0 +1,97 @@
+.logo{
+    display: flex;
+    background-color:#184040;
+    width: 100%;
+    height: 76px;
+  
+  }
+  .logo .logo-img{
+    width: 95px;
+  height: 70px;
+  margin-right: -4px;
+  }
+  .logo h3{
+    float: left;
+    font-size: 35px;
+     font-weight: 700;
+   top: 17px;
+   color:#FFFFFF;
+    margin-top: 9px;
+  }
+  .login .content{
+    background-image: url("../images/doct.jpg");
+        width: 100%;
+        height: 539px;
+        background-size: cover;
+        margin-top: -16px;
+  }
+  .login .form{
+    background-color: #698585;
+      height: 539px;
+      width: 400px;
+      margin-left: 100px;
+  
+  }
+  .form a{
+      color: white;
+      text-decoration: none;
+  }
+  .signinp2{
+    color: black;
+    font-size: 20px;
+    margin-left: 33px;
+    position: absolute;
+    bottom: 150px;
+    margin-bottom: -130px;
+  }
+  .signinp2 a{
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 8px;
+  }
+  .signinp1 {
+      color: white;
+      font-weight: 700;
+      font-size: 25px;
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+  .login button{
+      padding: 10px 100px;
+      border-radius: 8px;
+      border: none;
+      color:white;
+      background-color: #184040;
+      font-weight: 700;
+      font-size: 25px;
+      margin: 20px;
+      margin-left: 40px;
+      position: absolute;
+      bottom: 60px;
+  }
+  .login input {
+     background-color: white;
+         border: 7px solid white;
+         border-radius: 9px;
+         display: block;
+          margin: 30px;
+          width: 290px;
+  
+  
+  }
+  .login label{
+     font-weight: 600;
+     font-size: 25px;
+     position: relative;
+     left: 25px;
+     color: white;
+  }
+  .login h3{
+     color: white;
+     margin: 10px;
+     font-weight: 600;
+     font-size: 35px;
+  
+  }
+  
