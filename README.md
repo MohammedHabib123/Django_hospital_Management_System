@@ -54,11 +54,12 @@ Implementation:
 Create a model for Patient History.
 Allow doctors to add, update, and view patient records.
 Secure access to patient records based on roles.
+![7](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/970bd344-f64f-4d9a-a5fb-52ff003eb73d)
+![8](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/da0da7dc-cbd3-4997-83a1-2f9e1eaa4f75)
 
 
 
-# 7. Management of Users and Privileges
-Admin Responsibilities: Manage and assign privileges to different user roles.
-Implementation:
-Create user groups and assign permissions.
-Provide an interface for the admin to manage user roles and permissions.
+
+# 7. Bokking details
+Features: Admission has access to patient booking records, and it can delete them if they have been cancelled.
+admison:Provide access to booking details and management functionalities.
