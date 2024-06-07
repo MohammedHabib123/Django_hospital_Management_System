@@ -1,13 +1,15 @@
-#Project Overview and Features
+# Project Overview and Features
 
 
-#1. Landing Page
+# 1. Landing Page
 Components: Home, About Us, Services, Departments, Staff, Blogs, Testimonials, Contact.
+![1](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/189755de-fd03-4376-8979-a235a04db056)
 
 
 
 
-#2. User Authentication
+
+# 2. User Authentication
 Features: Sign In, Sign Up.
 Implementation:
 Use Django's built-in auth system for user registration and authentication.
@@ -16,7 +18,7 @@ Provide different roles (patient, doctor,admision , admin).
 
 
 
-#3. Appointment Booking
+# 3. Appointment Booking
 Features: Choose a doctor, select time, book an appointment.
 Implementation:
 Create models for Doctors and Appointments.
@@ -24,7 +26,7 @@ Provide views and forms for patients to book appointments.
 
 
 
-#4. Admin Dashboard
+# 4. Admin Dashboard
 Features: Manage users, appointments, and access privileges.
 Implementation:
 Use Django Admin for robust admin functionalities.
@@ -32,7 +34,7 @@ Create custom admin views or use third-party admin enhancement tools (like djang
 
 
 
-#5. User Roles and Permissions
+# 5. User Roles and Permissions
 Roles: Admin, Doctor, Patient.
 Implementation:
 Use Django's permissions framework to assign different access levels.
@@ -42,7 +44,7 @@ Patient: Access to their bookings and personal information.
 admison:Provide access to booking details and management functionalities.
 
 
-#6. Patient History
+# 6. Patient History
 Features: Doctors can create and update patient records.
 Implementation:
 Create a model for Patient History.
@@ -51,7 +53,7 @@ Secure access to patient records based on roles.
 
 
 
-#7. Management of Users and Privileges
+# 7. Management of Users and Privileges
 Admin Responsibilities: Manage and assign privileges to different user roles.
 Implementation:
 Create user groups and assign permissions.
