@@ -33,6 +33,8 @@ Features: Manage users, appointments, and access privileges.
 Implementation:
 Use Django Admin for robust admin functionalities.
 Create custom admin views or use third-party admin enhancement tools (like django-grappelli or django-admin-interface).
+![5](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/649ca2c6-8ddc-4b96-aaa9-4066587471b0)
+![6](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/443e5c09-5ad5-4d9a-a5bb-fba28a90d425)
 
 
 
