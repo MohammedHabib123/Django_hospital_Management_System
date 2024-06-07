@@ -15,7 +15,7 @@ Implementation:
 Use Django's built-in auth system for user registration and authentication.
 Custom user model if you need to extend the default user attributes.
 Provide different roles (patient, doctor,admision , admin).
-
+![2](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/ad287c8a-b641-4fde-86ef-e4b1529823bf)
 
 
 # 3. Appointment Booking
