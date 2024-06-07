@@ -63,3 +63,5 @@ Secure access to patient records based on roles.
 # 7. Bokking details
 Features: Admission has access to patient booking records, and it can delete them if they have been cancelled.
 admison:Provide access to booking details and management functionalities.
+![9](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/8626db04-cf36-4a44-90e7-3084bd93dc8f)
+![10](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/f2567a54-3504-4942-8fc9-786be9cf9cba)
