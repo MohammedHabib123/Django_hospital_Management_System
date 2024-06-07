@@ -23,6 +23,8 @@ Features: Choose a doctor, select time, book an appointment.
 Implementation:
 Create models for Doctors and Appointments.
 Provide views and forms for patients to book appointments.
+![4](https://github.com/MohammedHabib123/Django_hospital_Management_System/assets/130642209/b358c1e3-2378-425a-88c9-0001c5f57f8c)
+
 
 
 
